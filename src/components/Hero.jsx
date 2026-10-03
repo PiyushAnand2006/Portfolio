@@ -37,7 +37,7 @@ const Hero = () => {
       <img
         src={heroFirstFrame}
         alt=""
-        className="absolute top-0 left-0 w-full h-full object-cover object-center z-0"
+        className="absolute top-0 left-0 w-full h-full object-cover object-[50%_25%] md:object-center z-0"
       />
 
       {/* Background Video — public/hero-video.mp4 */}
@@ -47,11 +47,14 @@ const Hero = () => {
         muted={isMuted}
         playsInline
         poster={heroFirstFrame}
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-full object-cover object-[50%_25%] md:object-center z-0"
       >
         <source src="/hero-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+
+      {/* Mobile-only bottom scrim so hero text stays readable over the video */}
+      <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/85 via-black/40 to-transparent z-[5] md:hidden pointer-events-none" />
 
       {/* Left Floating Social Bar for Large Screens */}
       <div className="hidden lg:flex flex-col gap-6 fixed left-6 top-1/2 -translate-y-1/2 z-50 mix-blend-difference">
