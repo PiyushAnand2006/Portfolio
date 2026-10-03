@@ -166,6 +166,19 @@ const ContentCreator = () => {
           ))}
         </div>
 
+        {/* Contact CTA */}
+        <div data-aos="fade-up" data-aos-delay="400" className="mt-16 flex justify-center">
+          <a
+            href="#contact"
+            className="flex items-center gap-3 px-8 py-4 rounded-full bg-[#ff2a2a] text-white font-bold text-lg hover:bg-red-600 hover:shadow-[0_0_30px_rgba(255,42,42,0.4)] transition-all duration-500 group"
+          >
+            Let's Work Together
+            <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+
       </div>
 
       {/* Gallery Lightbox */}
