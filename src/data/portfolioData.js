@@ -336,8 +336,7 @@ export const certificates = {
       icon: "🤖",
     },
   ],
-  // Set to a Google Drive / GitHub link once you host all certificates together.
-  viewAllUrl: "https://github.com/PiyushAnand2006",
+  viewAllUrl: "https://drive.google.com/drive/folders/1ZTTxdXfKaevXd3dKHAfCmBq11m2k-aLh?usp=sharing",
 };
 
 export const education = {
