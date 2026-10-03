@@ -335,6 +335,11 @@ export const certificates = {
       issuer: "Digital Workforce Services Plc · May 2026",
       icon: "🤖",
     },
+    {
+      name: "Getting Started with Artificial Intelligence",
+      issuer: "IBM SkillsBuild · Mar 2026",
+      icon: "⚙️",
+    },
   ],
   viewAllUrl: "https://drive.google.com/drive/folders/1ZTTxdXfKaevXd3dKHAfCmBq11m2k-aLh?usp=sharing",
 };
