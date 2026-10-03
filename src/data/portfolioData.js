@@ -152,25 +152,29 @@ export const contentCreation = {
       title: "Ideatattva IDEATHON",
       description: "Pitched and prototyped at the Nikshatra E-Summit ideathon — team ideation, rapid prototyping, and live pitching rounds.",
       stats: "Nov 2025",
-      icon: "🏆"
+      icon: "🏆",
+      gallery: "ideathon"
     },
     {
       title: "Data Science & ML Workshop",
       description: "Hands-on training in machine learning — data preprocessing, model training, and evaluation on real datasets.",
       stats: "Certified 2026",
-      icon: "🤖"
+      icon: "🤖",
+      gallery: "ds-ml-workshop"
     },
     {
       title: "E-Mudhra Workshop",
       description: "Workshop on digital signatures, PKI fundamentals, and cyber-security awareness with live demonstrations.",
       stats: "Certified 2026",
-      icon: "🔐"
+      icon: "🔐",
+      gallery: "e-mudhra"
     },
     {
       title: "BDA Plantation & College Events",
       description: "Community service through the BDA Green Plantation Drive and active participation in BIT campus events.",
       stats: "2026",
-      icon: "🌱"
+      icon: "🌱",
+      gallery: ["bda-plantation", "campus"]
     }
   ]
 };

@@ -54,12 +54,12 @@ const Hero = () => {
       </video>
 
       {/* Left Floating Social Bar for Large Screens */}
-      <div className="hidden lg:flex flex-col gap-6 fixed left-6 top-1/2 -translate-y-1/2 z-50 mix-blend-difference">
+      <div className="hidden lg:flex flex-col gap-6 fixed left-6 top-1/2 -translate-y-1/2 z-50">
         <a 
           href={socialLinks.github} 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="text-white/60 hover:text-white transition-all duration-300 transform hover:scale-125"
+          className="text-white/85 hover:text-white transition-all duration-300 transform hover:scale-125 drop-shadow-md"
           aria-label="GitHub"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -70,7 +70,7 @@ const Hero = () => {
           href={socialLinks.linkedin} 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="text-white/60 hover:text-white transition-all duration-300 transform hover:scale-125"
+          className="text-white/85 hover:text-white transition-all duration-300 transform hover:scale-125 drop-shadow-md"
           aria-label="LinkedIn"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -81,7 +81,7 @@ const Hero = () => {
           href={socialLinks.leetcode} 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="text-white/60 hover:text-[#ff2a2a] transition-all duration-300 transform hover:scale-125"
+          className="text-white/85 hover:text-white transition-all duration-300 transform hover:scale-125 drop-shadow-md"
           aria-label="LeetCode"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
